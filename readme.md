@@ -52,6 +52,7 @@ opencv의 한국어 인식 에러를 방지하기 위한 이미지 파일명 변
 [한국인 감정인식을 위한 복합 영상](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=82) 데이터셋을 이용한 표정 인식을 위한 커스텀 VGGNet 모델 훈련 코드.
 
 ## 폴더트리
+```
 📦HUFS_ML_Project</br>
  ┣ 📂dataset</br>
  ┃ ┣ 📂test</br>
@@ -156,7 +157,7 @@ opencv의 한국어 인식 에러를 방지하기 위한 이미지 파일명 변
  ┣ 📜val_rename.ipynb</br>
  ┣ 📜vggnet_fer.ipynb</br>
  ┗ 📜vggnet_korean.ipynb</br>
-
+```
 
 ## 결론
 본 프로젝트를 통해 한국인과 서양인의 얼굴 표정 인식에 있어서의 차이를 분석하고, 이를 극복하기 위한 방안을 모색하였습니다.</br>
