@@ -52,110 +52,110 @@ opencv의 한국어 인식 에러를 방지하기 위한 이미지 파일명 변
 [한국인 감정인식을 위한 복합 영상](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=82) 데이터셋을 이용한 표정 인식을 위한 커스텀 VGGNet 모델 훈련 코드.
 
 ## 폴더트리
-📦HUFS_ML_Project
- ┣ 📂dataset
- ┃ ┣ 📂test
- ┃ ┃ ┗ 📂angry
- ┃ ┃ ┃ ┣ 📜korean faces.jpg
- ┃ ┃ ┃       ...
- ┃ ┃ ┗ 📂embarrassed
- ┃ ┃ ┃ ┣ 📜korean faces.jpg
+📦HUFS_ML_Project</br>
+ ┣ 📂dataset</br>
+ ┃ ┣ 📂test</br>
+ ┃ ┃ ┗ 📂angry</br>
+ ┃ ┃ ┃ ┣ 📜korean faces.jpg</br>
+ ┃ ┃ ┃       ...</br>
+ ┃ ┃ ┗ 📂embarrassed</br>
+ ┃ ┃ ┃ ┣ 📜korean faces.jpg</br>
+ ┃ ┃ ┃      ...</br>
+ ┃ ┃ ┗ 📂happy</br>
+ ┃ ┃ ┃ ┣ 📜korean faces.jpg</br>
  ┃ ┃ ┃      ...
- ┃ ┃ ┗ 📂happy
- ┃ ┃ ┃ ┣ 📜korean faces.jpg
- ┃ ┃ ┃      ...
- ┃ ┃ ┗ 📂neutral
- ┃ ┃ ┃ ┣ 📜korean faces.jpg
- ┃ ┃ ┃      ...
- ┃ ┃ ┗ 📂sad
- ┃ ┃ ┃ ┣ 📜korean faces.jpg
- ┃ ┃ ┃     ...
- ┃ ┃ ┗ 📂csvs
- ┃ ┃ ┃ ┣ 📜angry.csv
- ┃ ┃ ┃ ┣ 📜embarrassed.csv
- ┃ ┃ ┃ ┣ 📜happy.csv
- ┃ ┃ ┃ ┣ 📜merged.csv
- ┃ ┃ ┃ ┣ 📜neutral.csv
- ┃ ┃ ┃ ┗ 📜sad.csv
- ┃ ┗ 📂train
- ┃ ┃ ┗ 📂angry
- ┃ ┃ ┃ ┣ 📜korean faces.jpg
- ┃ ┃ ┃       ...
- ┃ ┃ ┗ 📂embarrassed
- ┃ ┃ ┃ ┣ 📜korean faces.jpg
- ┃ ┃ ┃      ...
- ┃ ┃ ┗ 📂happy
- ┃ ┃ ┃ ┣ 📜korean faces.jpg
- ┃ ┃ ┃      ...
- ┃ ┃ ┗ 📂neutral
- ┃ ┃ ┃ ┣ 📜korean faces.jpg
- ┃ ┃ ┃      ...
- ┃ ┃ ┗ 📂sad
- ┃ ┃ ┃ ┣ 📜korean faces.jpg
- ┃ ┃ ┃     ...
- ┃ ┃ ┗ 📂csvs
- ┃ ┃ ┃ ┣ 📜angry.csv
- ┃ ┃ ┃ ┣ 📜embarrassed.csv
- ┃ ┃ ┃ ┣ 📜happy.csv
- ┃ ┃ ┃ ┣ 📜merged.csv
- ┃ ┃ ┃ ┣ 📜neutral.csv
- ┃ ┃ ┃ ┗ 📜sad.csv
- ┣ 📂fer2013
- ┃ ┗ 📂resize
- ┃ ┃ ┣ 📂train
- ┃ ┃ ┃ ┗ 📂angry
- ┃ ┃ ┃ ┃ ┣ 📜fer2013 faces.jpg
- ┃ ┃ ┃ ┃       ...
- ┃ ┃ ┃ ┗ 📂embarrassed
- ┃ ┃ ┃ ┃ ┣ 📜fer2013 faces.jpg
- ┃ ┃ ┃ ┃      ...
- ┃ ┃ ┃ ┗ 📂happy
- ┃ ┃ ┃ ┃ ┣ 📜fer2013 faces.jpg
- ┃ ┃ ┃ ┃      ...
- ┃ ┃ ┃ ┗ 📂neutral
- ┃ ┃ ┃ ┣ 📜fer2013 faces.jpg
- ┃ ┃ ┃ ┃      ...
- ┃ ┃ ┃ ┗ 📂sad
- ┃ ┃ ┃ ┃ ┣ 📜fer2013 faces.jpg
- ┃ ┃ ┃     ...
- ┃ ┃ ┃ ┗ 📂csvs
- ┃ ┃ ┃ ┃ ┣ 📜angry.csv
- ┃ ┃ ┃ ┃ ┣ 📜embarrassed.csv
- ┃ ┃ ┃ ┃ ┣ 📜happy.csv
- ┃ ┃ ┃ ┃ ┣ 📜merged.csv
- ┃ ┃ ┃ ┃ ┣ 📜neutral.csv
- ┃ ┃ ┃ ┃ ┗ 📜sad.csv
- ┃ ┃ ┗ 📂validation
- ┃ ┃ ┃ ┗ 📂angry
- ┃ ┃ ┃ ┃ ┣ 📜fer2013 faces.jpg
- ┃ ┃ ┃ ┃       ...
- ┃ ┃ ┃ ┗ 📂embarrassed
- ┃ ┃ ┃ ┃ ┣ 📜fer2013 faces.jpg
- ┃ ┃ ┃ ┃      ...
- ┃ ┃ ┃ ┗ 📂happy
- ┃ ┃ ┃ ┃ ┣ 📜fer2013 faces.jpg
- ┃ ┃ ┃ ┃      ...
- ┃ ┃ ┃ ┗ 📂neutral
- ┃ ┃ ┃ ┣ 📜fer2013 faces.jpg
- ┃ ┃ ┃ ┃      ...
- ┃ ┃ ┃ ┗ 📂sad
- ┃ ┃ ┃ ┃ ┣ 📜fer2013 faces.jpg
- ┃ ┃ ┃     ...
- ┃ ┃ ┃ ┣ 📂csvs
- ┃ ┃ ┃ ┃ ┣ 📜angry.csv
- ┃ ┃ ┃ ┃ ┣ 📜embarrassed.csv
- ┃ ┃ ┃ ┃ ┣ 📜happy.csv
- ┃ ┃ ┃ ┃ ┣ 📜merged.csv
- ┃ ┃ ┃ ┃ ┣ 📜neutral.csv
- ┃ ┃ ┃ ┃ ┗ 📜sad.csv
- ┣ 📜face_inference_demo.ipynb
- ┣ 📜facecrop.ipynb
- ┣ 📜fer_resize.ipynb
- ┣ 📜renaming.ipynb
- ┣ 📜val_face_crop.ipynb
- ┣ 📜val_rename.ipynb
- ┣ 📜vggnet_fer.ipynb
- ┗ 📜vggnet_korean.ipynb
+ ┃ ┃ ┗ 📂neutral</br>
+ ┃ ┃ ┃ ┣ 📜korean faces.jpg</br>
+ ┃ ┃ ┃      ...</br>
+ ┃ ┃ ┗ 📂sad</br>
+ ┃ ┃ ┃ ┣ 📜korean faces.jpg</br>
+ ┃ ┃ ┃     ...</br>
+ ┃ ┃ ┗ 📂csvs</br>
+ ┃ ┃ ┃ ┣ 📜angry.csv</br>
+ ┃ ┃ ┃ ┣ 📜embarrassed.csv</br>
+ ┃ ┃ ┃ ┣ 📜happy.csv</br>
+ ┃ ┃ ┃ ┣ 📜merged.csv</br>
+ ┃ ┃ ┃ ┣ 📜neutral.csv</br>
+ ┃ ┃ ┃ ┗ 📜sad.csv</br>
+ ┃ ┗ 📂train</br>
+ ┃ ┃ ┗ 📂angry</br>
+ ┃ ┃ ┃ ┣ 📜korean faces.jpg</br>
+ ┃ ┃ ┃       ...</br>
+ ┃ ┃ ┗ 📂embarrassed</br>
+ ┃ ┃ ┃ ┣ 📜korean faces.jpg</br>
+ ┃ ┃ ┃      ...</br>
+ ┃ ┃ ┗ 📂happy</br>
+ ┃ ┃ ┃ ┣ 📜korean faces.jpg</br>
+ ┃ ┃ ┃      ...</br>
+ ┃ ┃ ┗ 📂neutral</br>
+ ┃ ┃ ┃ ┣ 📜korean faces.jpg</br>
+ ┃ ┃ ┃      ...</br>
+ ┃ ┃ ┗ 📂sad</br>
+ ┃ ┃ ┃ ┣ 📜korean faces.jpg</br>
+ ┃ ┃ ┃     ...</br>
+ ┃ ┃ ┗ 📂csvs</br>
+ ┃ ┃ ┃ ┣ 📜angry.csv</br>
+ ┃ ┃ ┃ ┣ 📜embarrassed.csv</br>
+ ┃ ┃ ┃ ┣ 📜happy.csv</br>
+ ┃ ┃ ┃ ┣ 📜merged.csv</br>
+ ┃ ┃ ┃ ┣ 📜neutral.csv</br>
+ ┃ ┃ ┃ ┗ 📜sad.csv</br>
+ ┣ 📂fer2013</br>
+ ┃ ┗ 📂resize</br>
+ ┃ ┃ ┣ 📂train</br>
+ ┃ ┃ ┃ ┗ 📂angry</br>
+ ┃ ┃ ┃ ┃ ┣ 📜fer2013 faces.jpg</br>
+ ┃ ┃ ┃ ┃       ...</br>
+ ┃ ┃ ┃ ┗ 📂embarrassed</br>
+ ┃ ┃ ┃ ┃ ┣ 📜fer2013 faces.jpg</br>
+ ┃ ┃ ┃ ┃      ...</br>
+ ┃ ┃ ┃ ┗ 📂happy</br>
+ ┃ ┃ ┃ ┃ ┣ 📜fer2013 faces.jpg</br>
+ ┃ ┃ ┃ ┃      ...</br>
+ ┃ ┃ ┃ ┗ 📂neutral</br>
+ ┃ ┃ ┃ ┣ 📜fer2013 faces.jpg</br>
+ ┃ ┃ ┃ ┃      ...</br>
+ ┃ ┃ ┃ ┗ 📂sad</br>
+ ┃ ┃ ┃ ┃ ┣ 📜fer2013 faces.jpg</br>
+ ┃ ┃ ┃     ...</br>
+ ┃ ┃ ┃ ┗ 📂csvs</br>
+ ┃ ┃ ┃ ┃ ┣ 📜angry.csv</br>
+ ┃ ┃ ┃ ┃ ┣ 📜embarrassed.csv</br>
+ ┃ ┃ ┃ ┃ ┣ 📜happy.csv</br>
+ ┃ ┃ ┃ ┃ ┣ 📜merged.csv</br>
+ ┃ ┃ ┃ ┃ ┣ 📜neutral.csv</br>
+ ┃ ┃ ┃ ┃ ┗ 📜sad.csv</br>
+ ┃ ┃ ┗ 📂validation</br>
+ ┃ ┃ ┃ ┗ 📂angry</br>
+ ┃ ┃ ┃ ┃ ┣ 📜fer2013 faces.jpg</br>
+ ┃ ┃ ┃ ┃       ...</br>
+ ┃ ┃ ┃ ┗ 📂embarrassed</br>
+ ┃ ┃ ┃ ┃ ┣ 📜fer2013 faces.jpg</br>
+ ┃ ┃ ┃ ┃      ...</br>
+ ┃ ┃ ┃ ┗ 📂happy</br>
+ ┃ ┃ ┃ ┃ ┣ 📜fer2013 faces.jpg</br>
+ ┃ ┃ ┃ ┃      ...</br>
+ ┃ ┃ ┃ ┗ 📂neutral</br>
+ ┃ ┃ ┃ ┃ ┣ 📜fer2013 faces.jpg</br>
+ ┃ ┃ ┃ ┃      ...</br>
+ ┃ ┃ ┃ ┗ 📂sad</br>
+ ┃ ┃ ┃ ┃ ┣ 📜fer2013 faces.jpg</br>
+ ┃ ┃ ┃     ...</br>
+ ┃ ┃ ┃ ┣ 📂csvs</br>
+ ┃ ┃ ┃ ┃ ┣ 📜angry.csv</br>
+ ┃ ┃ ┃ ┃ ┣ 📜embarrassed.csv</br>
+ ┃ ┃ ┃ ┃ ┣ 📜happy.csv</br>
+ ┃ ┃ ┃ ┃ ┣ 📜merged.csv</br>
+ ┃ ┃ ┃ ┃ ┣ 📜neutral.csv</br>
+ ┃ ┃ ┃ ┃ ┗ 📜sad.csv</br>
+ ┣ 📜face_inference_demo.ipynb</br>
+ ┣ 📜facecrop.ipynb</br>
+ ┣ 📜fer_resize.ipynb</br>
+ ┣ 📜renaming.ipynb</br>
+ ┣ 📜val_face_crop.ipynb</br>
+ ┣ 📜val_rename.ipynb</br>
+ ┣ 📜vggnet_fer.ipynb</br>
+ ┗ 📜vggnet_korean.ipynb</br>
 
 
 ## 결론
